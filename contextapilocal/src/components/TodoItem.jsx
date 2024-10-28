@@ -16,7 +16,7 @@ function TodoItem({ todo }) {
   }
   return (
     <div
-      className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${todo.completed ? "bg-[#c6e9a7]" : "bg-[#ccbed7]"
+    className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-black/50 duration-300  text-[#05de79] font-bold ${todo.completed ? "bg-[#4F4F4F]" : "bg-[#4F4F4F]"
         }`}
     >
       <input
